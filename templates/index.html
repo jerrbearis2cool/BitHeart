@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href= "{{ url_for('static',filename='style.css') }}">
+    </head>
+<body id="iau9">
+  <div id="i6po" class="gjs-grid-row">
+    <div id="itjq" class="gjs-grid-column">
+      <div id="iyd2" class="gjs-grid-row">
+        <div id="iffs" class="gjs-grid-column">
+          <div id="it00l" class="gjs-grid-row">
+            <div id="irtfd" class="gjs-grid-column"><a id="icfyb" href="#feature-section"
+                class="gjs-link"><b><a href="" id="ia2vz" class="gjs-link">BitHeart</a></b></a></div>
+          </div>
+        </div>
+        <div id="id7x" class="gjs-grid-column"><a class="gjs-button" id="iwwux" href="/donate">Donate</a></div>
+      </div>
+    </div>
+  </div>
+  <div id="irz7b" class="gjs-grid-row">
+    <div id="iycz3" class="gjs-grid-column">
+      <h1 id="irjua" class="gjs-heading"><span id="it5cj7">Donate to</span> charity <span id="ic7mzi">via</span> <span id="i9kx2i" style="color: rgba(235,175,35,1);">Web3</span></h1>
+      <div id="itndw" class="text-main-content">We are a small yet ambitious project aiming to bridge the massive potential
+        of Web3 with the case of charitable
+        action.<br/><br/><b id="i10fj"><span id="i807s">${{ total }} USD</span> has been donated in total!</b></div><a
+        id="iar3s" class="gjs-button" href="/donate">Join the leaderboard today!</a>
+    </div>
+  </div>
+  <div id="ioyxg" class="gjs-grid-row">
+    <div id="i8w4i" class="gjs-grid-column">
+      <div id="ixzh1" class="gjs-grid-row">
+        {{ podium | safe}}
+        <div id="ic57kq" class="gjs-grid-column feature-item" style="overflow-y: scroll; max-height: 50%; margin-bottom: 50px;">
+          {{ leaderboard | safe }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer style="background-color: rgb(255, 255, 255);">
+    <p>This site uses <a href="https://www.circle.com/en/" style="color: rgba(235,175,35,1)">Circle's</a> free web3 API</p>
+  </footer>
+</body>
+</html>
