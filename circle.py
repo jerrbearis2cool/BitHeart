@@ -10,10 +10,10 @@ from Crypto.Hash import SHA256
 
 from operator import itemgetter
 
-api_key = "TEST_API_KEY:ecfa89a4ad377846801a01265f60d110:ddaef3ae3e8cfbd851e1d13ce0da3621"
+api_key = "API_KEY"
 token_ids = {"USDC": "7adb2b7d-c9cd-5164-b2d4-b73b088274dc"}
 
-entity = "a6378ab51f3f58bcb19aefc6ff60b150b380dec58da12eca8c59bbe4912e1cdf"
+entity = "ENTITY"
 
 
 class Circle:
